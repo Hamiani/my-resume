@@ -1,0 +1,400 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --text-color: #333;
+  --background-color: #fff;
+  --sidebar-bg: #f5f5f5;
+  --card-bg: #fff;
+  --border-color: #e0e0e0;
+  --accent-color: #2980b9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  line-height: 1.6;
+}
+
+.cv-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: var(--background-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.cv-content {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.left-column {
+  flex: 1;
+  background-color: var(--sidebar-bg);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.right-column {
+  flex: 2;
+}
+
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.header-content h1 {
+  font-size: 32px;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
+.header-content h2 {
+  font-size: 18px;
+  color: var(--secondary-color);
+  font-weight: 400;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 10px;
+}
+
+.language-switcher button {
+  padding: 5px 10px;
+  border: 1px solid var(--border-color);
+  background: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.language-switcher button.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.cv-languages ul {
+  padding-left: 20px;
+}
+
+.cv-languages li {
+  margin-bottom: 5px;
+}
+
+.profile-info h2 {
+  color: var(--primary-color);
+  font-size: 22px;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+  width: 100%;
+  text-align: left;
+}
+
+section h2 {
+  color: var(--primary-color);
+  font-size: 22px;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+section h3 {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 8px;
+}
+
+/* Experience Items */
+.experience-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.experience-header {
+  margin-bottom: 10px;
+}
+
+.experience-header h3 {
+  margin-bottom: 4px;
+}
+
+.experience-header h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 4px;
+}
+
+.period {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.tech-stack {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border: 4px solid #3498db;
+}
+.profile-info img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+.profile-summary {
+  margin-bottom: 10px;
+  max-width: 800px;
+  text-align: left;
+}
+
+.profile-summary p {
+  line-height: 1.6;
+  color: #34495e;
+  font-size: 1rem;
+  margin: 0;
+}
+.profile-detail {
+  text-align: left;
+  width: 100%;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.profile-info strong {
+  color: #2c3e50;
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .cv-contact,
+  .cv-skills,
+  .profile-info,
+  .cv-languages {
+    padding: 0 20px;
+  }
+}
+
+.skill-category {
+  margin-bottom: 15px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.skill-tag {
+  background-color: #e8f4fc;
+  color: #2980b9;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid #b3d9f2;
+  font-size: 14px;
+}
+.skill-tag:hover {
+  background-color: #3498db;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.soft-skills ul {
+  padding-left: 20px;
+}
+
+.soft-skills li {
+  margin-bottom: 5px;
+}
+
+.hobbies {
+  margin: 25px 0;
+}
+
+.skill-category h3,
+.soft-skills h3,
+.hobbies h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.hobby-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hobby-tag {
+  background-color: #e8f4fc;
+  color: #2980b9;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+  border: 1px solid #b3d9f2;
+  transition: all 0.2s ease;
+}
+
+.hobby-tag:hover {
+  background-color: #3498db;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Info */
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.contact-item svg {
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+
+/* Footer */
+.cv-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+
+/* global.css - Add these styles to your global CSS */
+
+.experience-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+}
+
+.experience-header {
+  margin-bottom: 0.75rem;
+}
+
+.experience-header h3 {
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.experience-header h4 {
+  margin-bottom: 0.25rem;
+  color: #666;
+}
+
+.period {
+  font-style: italic;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.description {
+  margin-bottom: 1rem;
+}
+
+.responsibilities {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.responsibilities h5 {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.responsibilities ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.responsibilities li {
+  margin-bottom: 0.25rem;
+}
+
+.tech-stack {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.expand-button {
+  background: none;
+  border: none;
+  color: #0066cc;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 0;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.expand-button:hover {
+  color: #004499;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .cv-content {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}
