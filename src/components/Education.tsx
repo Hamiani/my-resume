@@ -1,4 +1,3 @@
-// components/Education.tsx
 import { useMemo } from 'react';
 import { Education as EducationType, LanguageType } from '../types/common';
 
@@ -7,7 +6,6 @@ interface EducationProps {
 }
 
 function Education({ language }: EducationProps) {
-  // Using useMemo to optimize performance
   const educations = useMemo<EducationType[]>(() => [
     {
       id: 1,
@@ -82,9 +80,9 @@ function Education({ language }: EducationProps) {
       {educations.map(edu => (
         <div key={edu.id} className="education-item">
           <h3>{edu.school[language]}</h3>
+          <p className="period">{edu.period}</p>
           <p className="degree">{edu.degree[language]}</p>
           <p className="field">{edu.field[language]}</p>
-          <p className="period">{edu.period}</p>
         </div>
       ))}
     </section>

@@ -1,4 +1,3 @@
-// components/ExperienceItem.tsx
 import { useState } from "react";
 import { ExperienceType, LanguageType } from "../types/common";
 
