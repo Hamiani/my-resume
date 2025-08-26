@@ -17,12 +17,13 @@ function Skills({ language }: SkillsProps) {
         "Next.js",
         "Hooks",
         "Redux",
+        "TanStack Query"
       ],
       backend: ["Java/SpringBoot", "TypeScript/ExpressJs/NestJs", "Kafka"],
       database: ["MYSQL", "PostgreSQL", "MongoDB"],
-      testing: ["JUnit", "Jest"],
+      testing: ["JUnit", "Jest","Cucumber"],
       management: ["Scrum", "Jira"],
-      os: ["LINUX (Ubuntu)", "Windows"],
+      os: ["LINUX (Ubuntu)", "Windows","MAC"],
       cicd: [
         "Git",
         "github",

@@ -2,11 +2,45 @@ import { ExperienceType, LanguageType } from "../types/common";
 
 const experiencesEN = [
   {
+    id: 0,
+    position: "Full-Stack Developer",
+    company: "WEMANITY",
+    client: "Decathlon",
+    period: "May 2024 to present",
+    location: "",
+    context:
+      "The Context Note is a tool that allows the industrial community to estimate the future industrial context, based on the current year's results and projections of the evolution of various factors impacting revenue",
+    responsibilities: [
+      "Participate in code reviews to ensure quality and consistency across all developments",
+      "Implement and maintain unit and integration tests to guarantee application reliability",
+      "Participate in incident resolution and provide support for applications in production",
+      "Write quality code while respecting development best practices and company standards",
+      "Collaborate closely with Product Managers and other team members to understand functional requirements and translate them into robust and performant technical solutions",
+      "Participate in the design, development and maintenance of applications",
+    ],
+    technical_environment: [
+      "React",
+      "PostgreSQL",
+      "Java",
+      "JavaScript",
+      "SpringBoot",
+      "Git",
+      "NestJs",
+      "Github actions",
+      "TypeScript",
+      "Junit",
+      "Cucumber",
+      "TypeORM",
+      "Hibernate",
+      "JPA",
+    ],
+  },
+  {
     id: 1,
     position: "Full-Stack Developer",
     company: "WEMANITY",
     client: "EMERGA",
-    period: "October 2024 to present",
+    period: "October 2024 - May 2025",
     location: "",
     context:
       "EmerGa is a general interest association that develops innovative projects in the field of emergency medicine. We are working on the development of a mobile application that helps save lives: our application helps citizens provide assistance and facilitates exchanges between witnesses and emergency services.",
@@ -38,7 +72,7 @@ const experiencesEN = [
     position: "Back-End Developer",
     company: "WEMANITY",
     client: "ADEO",
-    period: "July 2024 to September 2024",
+    period: "July 2024 - September 2024",
     location: "",
     context:
       "An ambitious project aimed at digitizing and automating all user journeys (sellers, craftsmen, customers) through digital tools. Primarily focused on managing the network of partner craftsmen, from sourcing to onboarding, as well as partnership management, the project was part of an agile approach. The multidisciplinary team, composed of a tech lead, three developers, a project manager, a QA, and a designer, operated according to agile principles with regular sprints, planning sessions, reviews, and retrospectives.",
@@ -78,7 +112,7 @@ const experiencesEN = [
     position: "Full-Stack Developer",
     company: "WEMANITY",
     client: "DECATHLON",
-    period: "October 2022 to March 2024",
+    period: "October 2022 - March 2024",
     location: "",
     context:
       "A Layout Catalog web application, integrated into the MyBusiness platform, is a B2B sales platform dedicated to Decathlon merchandise for purchasing store layouts and products. This website offers a wide range of products and solutions specifically designed for retail space arrangement, including shelving, displays, and other essential equipment to optimize layout. Designed to facilitate and optimize purchases for industry professionals, this site combines practicality, efficiency, and quality, while being seamlessly integrated into Decathlon's MyBusiness ecosystem.",
@@ -151,7 +185,7 @@ const experiencesEN = [
     position: "Full-Stack Developer",
     company: "TAILLISLABS",
     client: "BMCI",
-    period: "June 2020 to August 2021",
+    period: "June 2020 - August 2021",
     location: "Casablanca, Morocco",
     context:
       "Contribution with the Taillis team in an external mission at a client in the banking sector (BOA) to manage the web part (Front-End) of their website.",
@@ -185,7 +219,7 @@ const experiencesEN = [
     position: "Full-Stack Developer",
     company: "TAILLISLABS",
     client: "AUTOPLUS",
-    period: "November 2019 to May 2020",
+    period: "November 2019 - May 2020",
     location: "Casablanca, Morocco",
     context:
       "Contribution to a development project for a website and mobile application (B2B) for online purchase of automobile parts for the client AutoPlus.",
@@ -216,7 +250,7 @@ const experiencesEN = [
     id: 7,
     position: "Full-Stack Developer (Final Year Project)",
     company: "ALPHALUPI TECH",
-    period: "February 2019 to July 2019",
+    period: "February 2019 - July 2019",
     location: "Casablanca, Morocco",
     context:
       "Implementation of an intelligent platform for communication between bank employees (BMCI) based on a chatbot and navigation interfaces: A collaborative HR intranet platform for the administration of bank communications. A mobile application that gives all employees access to intranet content through communication interfaces, FAQs, a notification system, and an intelligent assistant.",
@@ -248,15 +282,50 @@ const experiencesEN = [
 
 const experiencesFR = [
   {
+    id: 0,
+    position: "Full-Stack Developer",
+    company: "WEMANITY",
+    client: "Decathlon",
+    period: "Mai 2024 jusqu'au présent",
+    location: "",
+    context:
+      "Le Contexte Note est un outil qui permet à la communauté industrielle d'estimer le context industriel futur, en se basant sur les résultats de l'année en cours et sur des estimations de l'évolution de différents facteurs impactants le chiffre d'affaire.",
+
+    responsibilities: [
+      "Participer aux revues de code pour assurer la qualité et la cohérence de l'ensemble des développements",
+      "Mettre en place et maintenir des tests unitaires et d'intégration pour garantir la fiabilité des applications.",
+      "Participer à la résolution des incidents et assurer le support des applications en production.",
+      "Écrire du code de qualité, en respectant les bonnes pratiques de développement et les standards de l'company",
+      "Collaborer étroitement avec les Product Manager et les autres membres de l'équipe pour comprendre les besoins fonctionnels et les traduire en solutions techniques robustes et performantes",
+      "Participer à la conception, au développement et à la maintenance des applications",
+    ],
+    technical_environment: [
+      "React",
+      "PostgreSQL",
+      "Java",
+      "JavaScript",
+      "SpringBoot",
+      "Git",
+      "NestJs",
+      "Github actions",
+      "TypeScript",
+      "Junit",
+      "Cucumber",
+      "TypeORM",
+      "Hibernate",
+      "JPA",
+    ],
+  },
+  {
     id: 1,
-    poste: "Développeur Full-Stack",
-    entreprise: "WEMANITY",
+    post: "Développeur Full-Stack",
+    company: "WEMANITY",
     client: "EMERGA",
-    periode: "Octobre 2024 jusqu'au présent",
-    lieu: "",
-    contexte:
+    period: "Octobre 2024 - Mai 2025",
+    location: "",
+    context:
       "EmerGa est une association d'intérêt général qui développe des projets innovants dans le domaine de la médecine d'urgence. Nous travaillons sur le développement d'une application mobile qui permet de sauver des vies : notre application aide les citoyens à porter secours et facilite les échanges entre témoins et services de secours.",
-    responsabilites: [
+    responsibilities: [
       "Conception et développement d'un composant d'appels vidéo utilisant l'API Twilio Video",
       "Implémentation des fonctionnalités essentielles telles que la gestion des flux audio/vidéo, les salles de conférence virtuelles et l'interface utilisateur interactive",
       "Déploiement et maintenance sur les environnements de développement et pré-production",
@@ -264,7 +333,7 @@ const experiencesFR = [
       "Gestion optimisée des flux de données entre le client et le serveur",
       "Intégration des APIs dans l'application front-end",
     ],
-    environnement_technique: [
+    technical_environment: [
       "React JS",
       "TypeScript",
       "JavaScript",
@@ -276,19 +345,19 @@ const experiencesFR = [
       "VScode",
       "Github",
       "Postman",
-      "Twilio"
+      "Twilio",
     ],
   },
   {
     id: 2,
-    poste: "Développeur Back-End",
+    post: "Développeur Back-End",
     client: "ADEO",
-    entreprise: "WEMANITY",
-    periode: "Juillet 2024 à septembre 2024",
-    lieu: "",
-    contexte:
+    company: "WEMANITY",
+    period: "Juillet 2024 - septembre 2024",
+    location: "",
+    context:
       "Un projet ambitieux avait pour objectif de digitaliser et automatiser l'ensemble des parcours des différents utilisateurs (vendeurs, artisans, clients) via des outils numériques. Principalement axé sur la gestion du réseau d'artisans partenaires, de leur sourcing à leur onboarding, ainsi que la gestion des partenariats, le projet s'inscrivait dans une démarche agile. L'équipe multidisciplinaire, composée d'un tech lead, de trois développeurs, d'un chef de projet, d'un QA et d'un designer, fonctionnait selon les principes agiles avec des sprints réguliers, des sessions de planification, des revues et des rétrospectives.",
-    responsabilites: [
+    responsibilities: [
       "Développement d'API pour la lecture et extraction des données",
       "Mise en place des consumers Kafka pour récupérer les données",
       "Mise en place des producers Kafka pour publier les données",
@@ -299,7 +368,7 @@ const experiencesFR = [
       "Extension du modèle de données pour répondre aux nouvelles exigences du projet",
       "Création et gestion de requêtes de migration de base de données avec Flyway",
     ],
-    environnement_technique: [
+    technical_environment: [
       "Java",
       "Springboot 3",
       "Spring-configuration",
@@ -321,14 +390,14 @@ const experiencesFR = [
   },
   {
     id: 3,
-    poste: "Développeur Full Stack",
-    entreprise: "WEMANITY",
+    post: "Développeur Full Stack",
+    company: "WEMANITY",
     client: "DECATHLON",
-    periode: "Octobre 2022 à mars 2024",
-    lieu: "",
-    contexte:
+    period: "Octobre 2022 à mars 2024",
+    location: "",
+    context:
       "Une application web Catalogue Agencement, intégrée à la plateforme MyBusiness, est une plateforme de vente B2B dédiée aux merch de Decathlon pour l'achat des agencements et produits des magasins. Ce site web offre une vaste gamme de produits et de solutions spécialement conçus pour l'aménagement des espaces de vente, y compris les rayonnages, les présentoirs, et d'autres équipements essentiels pour optimiser l'agencement. Conçu pour faciliter et optimiser les achats pour les professionnels du secteur, ce site allie praticité, efficacité, et qualité, tout en étant intégré harmonieusement dans l'écosystème MyBusiness de Decathlon.",
-    responsabilites: [
+    responsibilities: [
       "Intégration de designs et de maquettes dans le code",
       "Optimisation de la performance et de la réactivité du front-end",
       "Développement d'API pour permettre la communication entre le front-end et le back-end",
@@ -339,7 +408,7 @@ const experiencesFR = [
       "Maintenance continue, gestion des mises à jour et résolution des problèmes post-déploiement",
       "Création et gestion de requêtes de migration de base de données avec Flyway",
     ],
-    environnement_technique: [
+    technical_environment: [
       "React JS",
       "TypeScript",
       "JavaScript",
@@ -362,13 +431,13 @@ const experiencesFR = [
   },
   {
     id: 4,
-    poste: "Développeur Full-Stack (PFE)",
-    entreprise: "ASFOTEC",
-    periode: "Avril 2022 - septembre 2022",
-    lieu: "Mons-en-Barœul, France",
-    contexte:
+    post: "Développeur Full-Stack (PFE)",
+    company: "ASFOTEC",
+    period: "Avril 2022 - septembre 2022",
+    location: "Mons-en-Barœul, France",
+    context:
       "Application web pour créer des questionnaires et l'envoyer aux candidats pour évaluer leurs compétences.",
-    responsabilites: [
+    responsibilities: [
       "La refonte de l'architecture de projet (back-end et front-end)",
       "Développement des Composants web",
       "Développement des API's REST",
@@ -377,7 +446,7 @@ const experiencesFR = [
       "Participation aux réunions d'équipe et aux revues de code",
       "Débogage des erreurs et des problèmes liés au code",
     ],
-    environnement_technique: [
+    technical_environment: [
       "Express.js",
       "Firebase",
       "TypeScript",
@@ -394,14 +463,14 @@ const experiencesFR = [
   },
   {
     id: 5,
-    poste: "Développeur Full-Stack",
-    entreprise: "TAILLISLABS",
+    post: "Développeur Full-Stack",
+    company: "TAILLISLABS",
     client: "BANK OF AFRICA",
-    periode: "Juin 2020 jusqu'à Août 2021",
-    lieu: "Casablanca, Maroc",
-    contexte:
+    period: "Juin 2020 jusqu'à Août 2021",
+    location: "Casablanca, Maroc",
+    context:
       "Contribution avec l'équipe Taillis dans une mission externe chez un client dans le secteur bancaire (BOA) pour gérer la partie web (Front-End) de son site web.",
-    responsabilites: [
+    responsibilities: [
       "Mise en place d'un simulateur de crédit (back-office / front-office)",
       "Gestion de la partie Front-office de site web pour le client BOA",
       "Développement des composants web",
@@ -411,7 +480,7 @@ const experiencesFR = [
       "Intégration de designs et de maquettes dans le code",
       "Gestion du store de l'application",
     ],
-    environnement_technique: [
+    technical_environment: [
       "React js",
       "Hooks",
       "Context",
@@ -428,14 +497,14 @@ const experiencesFR = [
   },
   {
     id: 6,
-    poste: "Développeur Full-Stack",
-    entreprise: "TAILLISLABS",
+    post: "Développeur Full-Stack",
+    company: "TAILLISLABS",
     client: "AUTOPLUS",
-    periode: "November 2019 jusqu'au may 2020",
-    lieu: "Casablanca, Maroc",
-    contexte:
+    period: "Novembre 2019 - Mai 2020",
+    location: "Casablanca, Maroc",
+    context:
       "Contribution dans un projet de développement d'un site web et une application mobile (B2B) d'achat en ligne des pièces d'automobile pour le client AutoPlus.",
-    responsabilites: [
+    responsibilities: [
       "Mise en place d'une architecture micro-service",
       "Développement d'une couche qui communique et reçoit les données de l'api Tecalliance",
       "Développement d'une couche de synchronisation de la base de données interne du client avec notre base de données",
@@ -443,7 +512,7 @@ const experiencesFR = [
       "Développement des Composants web et mobile",
       "Intégration de designs et de maquettes dans le code",
     ],
-    environnement_technique: [
+    technical_environment: [
       "Express.js",
       "Graphql",
       "React js",
@@ -460,21 +529,21 @@ const experiencesFR = [
   },
   {
     id: 7,
-    poste: "Développeur Full-Stack (PFE)",
-    entreprise: "ALPHALUPI TECH",
+    post: "Développeur Full-Stack (PFE)",
+    company: "ALPHALUPI TECH",
     client: "BMCI",
-    periode: "Février 2019 jusqu'à Juillet 2019",
-    lieu: "Casablanca, Maroc",
-    contexte:
+    period: "Février 2019 - Juillet 2019",
+    location: "Casablanca, Maroc",
+    context:
       "Mise en place d'une plateforme intelligente pour la communication entre les collaborateurs de la banque (BMCI) basée sur un chatbot et des interfaces de navigation: Une plateforme intranet RH collaborative pour l'administration des communications de la banque. Une application mobile qui donne accès à l'ensemble des collaborateurs au contenu intranet à travers des interfaces de communications, FAQs, un système de notification, et un assistant intelligent.",
-    responsabilites: [
+    responsibilities: [
       "Développement de la plateforme intranet RH collaborative",
       "Développement de l'application mobile pour accès au contenu intranet",
       "Mise en place d'interfaces de communications et FAQs",
       "Intégration d'un système de notification",
       "Développement d'un assistant intelligent",
     ],
-    environnement_technique: [
+    technical_environment: [
       "Java",
       "Spring boot",
       "AWS S3",
@@ -500,32 +569,32 @@ export const getExperiences = (language: LanguageType): ExperienceType[] => {
     return {
       id: exp.id,
       title: {
-        fr: frExp.poste,
+        fr: frExp.post,
         en: exp.position,
       },
       company: exp.company,
       client: exp.client,
       period: {
-        fr: frExp.periode,
+        fr: frExp.period,
         en: exp.period,
       },
       location: {
-        fr: frExp.lieu,
+        fr: frExp.location,
         en: exp.location,
       },
       context: {
-        fr: frExp.contexte,
+        fr: frExp.context,
         en: exp.context,
       },
       responsibilities: {
-        fr: frExp.responsabilites,
+        fr: frExp.responsibilities,
         en: exp.responsibilities,
       },
       technical_environment: exp.technical_environment,
       description: {
         fr:
-          frExp.contexte.substring(0, 150) +
-          (frExp.contexte.length > 150 ? "..." : ""),
+          frExp.context.substring(0, 150) +
+          (frExp.context.length > 150 ? "..." : ""),
         en:
           exp.context.substring(0, 150) +
           (exp.context.length > 150 ? "..." : ""),

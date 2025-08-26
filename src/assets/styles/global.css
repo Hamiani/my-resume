@@ -424,3 +424,115 @@ section h3 {
     width: 100%;
   }
 }
+
+/* Styles pour le modal d'image agrandie */
+.image-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 80vw;
+  max-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enlarged-image {
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.image-modal-close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  color: #333;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.image-modal-close:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+
+/* Animation d'entrée */
+.image-modal-overlay {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.image-modal-content {
+  animation: zoomIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .image-modal-close {
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+  
+  .image-modal-content {
+    max-width: 95vw;
+    max-height: 95vh;
+  }
+}
+
+/* Effet hover sur l'image originale */
+.cv-profile img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cv-profile img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
