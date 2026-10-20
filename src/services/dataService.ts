@@ -6,7 +6,7 @@ const experiencesEN = [
     position: "Full-Stack Developer",
     company: "WEMANITY",
     client: "Decathlon",
-    period: "May 2024 to present",
+    period: "May 2025 to present",
     location: "",
     context:
       "Worked across several Decathlon projects: PYC, a component pricing and catalog management platform with a REST API and web application; Industry Commons Kit, a shared Java/Spring Boot library; VCC Mongo Proxy, a read-only API for supplier messages stored in MongoDB; and a GitHub Copilot extension for configuring pgEdge MCP and PostgreSQL connectivity.",
@@ -298,7 +298,7 @@ const experiencesFR = [
     position: "Full-Stack Developer",
     company: "WEMANITY",
     client: "Decathlon",
-    period: "Mai 2024 jusqu'au présent",
+    period: "Depuis mai 2025",
     location: "",
     context:
       "Intervention sur plusieurs projets Decathlon : PYC, plateforme de gestion des prix et des catalogues de composants (API REST et application web) ; Industry Commons Kit, bibliothèque Java/Spring Boot de composants partagés ; VCC Mongo Proxy, API en lecture seule pour consulter des messages fournisseurs stockés dans MongoDB ; et une extension GitHub Copilot pour configurer pgEdge MCP et la connexion à PostgreSQL.",
