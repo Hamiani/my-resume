@@ -53,7 +53,7 @@ const Profile = ({ language }: ProfileProps) => {
           <div className="profile-summary">
             <p>
               {language === "fr"
-                ? "Développeur Full Stack expérimenté avec une forte expertise en Java/Spring Boot et JavaScript/React. Spécialisé dans le développement d'applications web performantes et d'APIs. Passionné par les solutions techniques innovantes et l'amélioration continue des processus de développement."
+                ? "Développeur full stack expérimenté, spécialisé en Java/Spring Boot et JavaScript/React, avec une expérience confirmée dans la conception d'applications web performantes et d'API. Intéressé par les solutions techniques innovantes et l'amélioration continue des pratiques de développement."
                 : "Experienced Full Stack Developer with strong expertise in Java/Spring Boot and JavaScript/React. Specialized in developing high-performance web applications and APIs. Passionate about innovative technical solutions and continuous improvement of development processes."}
             </p>
           </div>
@@ -68,7 +68,7 @@ const Profile = ({ language }: ProfileProps) => {
             </p>
             <p>
               <strong>
-                {language === "fr" ? "Situation Familiale" : "Family Status"}:
+                {language === "fr" ? "Situation familiale" : "Family Status"}:
               </strong>
               {language === "fr" ? "Marié" : "Married"}
             </p>

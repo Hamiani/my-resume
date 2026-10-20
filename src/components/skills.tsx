@@ -11,24 +11,24 @@ function Skills({ language }: SkillsProps) {
       frontend: [
         "TypeScript",
         "JavaScript",
-        "React Js",
-        "VueJs",
+        "React.js",
+        "Vue.js",
         "React Native",
         "Next.js",
         "Hooks",
         "Redux",
         "TanStack Query"
       ],
-      backend: ["Java/SpringBoot", "TypeScript/ExpressJs/NestJs", "Kafka"],
-      database: ["MYSQL", "PostgreSQL", "MongoDB"],
+      backend: ["Java/Spring Boot", "TypeScript/Express.js/NestJS", "Kafka"],
+      database: ["MySQL", "PostgreSQL", "MongoDB"],
       testing: ["JUnit", "Jest","Cucumber"],
       management: ["Scrum", "Jira"],
-      os: ["LINUX (Ubuntu)", "Windows","MAC"],
+      os: ["Linux (Ubuntu)", "Windows", "macOS"],
       cicd: [
         "Git",
-        "github",
-        "gitlab",
-        "github actions",
+        "GitHub",
+        "GitLab",
+        "GitHub Actions",
         "Jenkins",
         "Kubernetes",
       ],
@@ -42,7 +42,7 @@ function Skills({ language }: SkillsProps) {
       backend: { fr: "Back-end", en: "Back-end" },
       database: { fr: "Base de données", en: "Database" },
       testing: {
-        fr: "Tests unitaires et d'integration",
+        fr: "Tests unitaires et d'intégration",
         en: "Unit and integration testing",
       },
       management: { fr: "Gestion de projet", en: "Project management" },
@@ -72,7 +72,9 @@ function Skills({ language }: SkillsProps) {
       ))}
 
       <div className="soft-skills">
-        <h3>{language === "fr" ? "Soft Skills" : "Soft Skills"}</h3>
+        <h3>
+          {language === "fr" ? "Compétences comportementales" : "Soft Skills"}
+        </h3>
         <ul>
           <li>{language === "fr" ? "Esprit d'équipe" : "Team spirit"}</li>
           <li>{language === "fr" ? "Gestion du temps" : "Time management"}</li>

@@ -18,7 +18,7 @@ function Education({ language }: EducationProps) {
         en: "Master's Degree in Computer Science"
       },
       field: {
-        fr: "Filière : Développement Logiciel des systèmes d'information",
+        fr: "Filière : développement logiciel des systèmes d'information",
         en: "Specialization: Software Development for Information Systems"
       },
       period: "2021-2022"
